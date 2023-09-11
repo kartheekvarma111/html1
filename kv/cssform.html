@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h2><b>CSS Form<a href="home.html" onmouseover="this.style.color='#40e0d0'" onmouseover="this.style.color='hotpink'">HOME</a></b></h2>
+<style>
+    body{fornt-size:22px;
+         }
+    form{
+        margin-left:28em;
+        margin-top:2em;
+
+    }
+    h2{
+        margin-left: 45%;
+
+    }
+    input[type=text],select{
+        width:30%;
+        padding:10px 10px;
+         
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: :4px;
+        box-sizing: border-box;
+    }
+    input[type=subimt] {
+        background-color: darkgoldenrod;
+        color:white;
+        font-size:22px;
+        padding: 14px 20px;
+        margin-left:95px;
+        border:none;
+        border-radius: 4px;
+        cursor:pointer;
+        
+
+    }
+    input[type=submit]:hover{
+        background-color:#ffa500;
+    }
+    div{
+        border-radius:5px;
+        background-color:#f2f2f2;
+        padding:20px;
+    }
+    a{
+        font-size: 18px;
+        margin-left:550px;
+        padding:10px;
+        text-decoration:none;
+        border-radius:8px;
+        border-style:ridge;
+    }
+    a: hover {
+        color:#40e0d0;
+
+    }
+</style>
+</head>
+<body>
+    <form action="#">
+        <label for="first_name">First name:</label><br>
+        <input type="text" id="first_name" name="first_name"><br><br>
+        <label for="last_name">Last name:</label><br>
+        <input type="text" id="last_name" name="last_name"><br><br>
+        <label for="university">University:</label><br>
+        <input type="text" id="university" name="university"><br><br>
+        <label for ="cgpa">CGPA:</label><br>
+        <input type="text" id="cgpa" name="cgpa"><br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

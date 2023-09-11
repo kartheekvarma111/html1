@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <title>lab</title>
+    <head><h2><b>Programming languages<a href="home.html" onMouseover="this.style.color='#40e0d0'" onMouseout="this.style.color='hotpink'">Home</a></b></h2>
+    <style>
+        body{
+            margin-left: 2.5em;
+        font-size: 17px;
+
+        }
+        pre{
+            margin: 0px;
+
+        }
+        div {
+            border-radius: 14px;
+            margin-right:30px;
+            padding: 17px;
+
+        }
+        h3{
+            margin-left: 100px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+        }
+        p{
+            margin-left: 250px;
+        }
+        a{font-size:18px;
+        margin-left:1112px;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 8px;
+    border-style: ridge; 
+}
+    a: hover {
+        color: #40e0d0;
+
+    }
+    #python{
+        background-color: green;
+    }
+    #cpp{
+        background-color: pink;
+    }
+    #js{background-color: skyblue;}
+    #csharp 
+    {
+        background-color: blueviolet;
+    }
+    </style>
+    </head>
+    <body>
+        <div id="python">
+            <h3>This is python</h3>
+            <code><pre>
+                x=1
+                if(x==1):
+                print("x is 1 !")
+            </pre></code>
+        </div>
+        <div id="cpp">
+            <h3>This is C++</h3>
+            <code><pre>
+                #include <code><</code>iostream<code>></code>
+                using namespace std;
+                int main(){
+                    printf("Hello World!");
+                }
+            </pre></code>
+        </div>
+        <div id="js">
+            <h3>This is JavaScript</h3>
+            <code><pre>
+                let name = prompt("What is your name?")
+                welcome_msg = "Hello" + name + "!"
+                Console.log(welcome_msg)
+            </pre></code>
+        </div>
+        <div id="csharp">
+            <h3>This is C#</h3>
+            <code><pre>
+                namespace HelloWorld
+                {
+                    class Hello{
+                        static void Main(string[] args){
+                            System.Console.WriteLine("Hello World!");
+                        }
+                    }
+                }
+            </pre></code>
+        </div>
+    </body>
+</html>
